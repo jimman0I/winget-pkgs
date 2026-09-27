@@ -16,6 +16,6 @@ ReleaseDate: 2026-09-26
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/jimman0I/prune/releases/download/v2.9.0/Prune-Setup-2.9.0.exe
-  InstallerSha256: 42E2D783B8D37E5C1BAB7DCE67A7E4037930CAF8301CD6AD4D0464417172F555
+  InstallerSha256: 687EBA8392EDAB115CB45262108DC53B1866062D63EA1847E99A92E950185A64
 ManifestType: installer
 ManifestVersion: 1.9.0

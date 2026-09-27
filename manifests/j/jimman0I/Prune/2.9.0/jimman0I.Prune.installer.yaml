@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: jimman0I.Prune
+PackageVersion: 2.9.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: install
+ReleaseDate: 2026-09-26
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/jimman0I/prune/releases/download/v2.9.0/Prune-Setup-2.9.0.exe
+  InstallerSha256: 42E2D783B8D37E5C1BAB7DCE67A7E4037930CAF8301CD6AD4D0464417172F555
+ManifestType: installer
+ManifestVersion: 1.9.0
